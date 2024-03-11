@@ -72,7 +72,7 @@ function convertToTime(hour, minute, second, amPm) {
 function setAlarm(time, fetching = false) {
   const alarm = setInterval(() => {
     if (time === getCurrentTime()) {
-      alert("wakeup bitch");
+      alert("wakeup");
     }
     
     console.log("running");
