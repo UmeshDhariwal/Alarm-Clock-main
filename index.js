@@ -32,7 +32,7 @@ function dropDownMenu(start, end, element) {
   }
 }
 
-
+// clock face
 function getCurrentTime() {
   let time = new Date();
   time = time.toLocaleTimeString("en-US", {
@@ -46,7 +46,7 @@ function getCurrentTime() {
   return time;
 }
 
-
+//set alarm
 function getInput(e) {
   e.preventDefault();
   const hourValue = setHours.value;
